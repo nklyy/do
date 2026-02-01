@@ -1,0 +1,6 @@
+**/.terraform/
+**/node_modules/
+dist/
+**/.terragrunt-*
+**/.terragrunt.*
+**/.terraform.lock.*
