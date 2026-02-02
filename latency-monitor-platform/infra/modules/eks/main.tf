@@ -5,6 +5,9 @@ module "eks" {
   name = var.name
   kubernetes_version = var.kube_version
 
+  enable_irsa = true
+  endpoint_public_access = true
+
   vpc_id = var.vpc_id
   subnet_ids = var.subnet_ids
 
